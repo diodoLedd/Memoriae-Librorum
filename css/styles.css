@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  font-family: 'Inter', Arial;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'PT Serif';
+} 
+
+a.navbar-brand{
+  font-family: 'PT Serif';
+  font-size: 1.5rem;
+}
+
+header.copertina {
+  position: relative;
+  overflow: hidden;
+  padding-top: 30vh;
+  padding-bottom: 15vh;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.wavy-underline-primary {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #0d6efd;
+}
+
+.form{
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 1140px) {
+  .container.container-50 {
+    width: 50%;
+  }
+}
