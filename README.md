@@ -144,6 +144,6 @@ MemoriaeLibrorum/
 
 - 🛡️ **Pannello Admin** per inserire libri tramite interfaccia grafica (evitando di doverli aggiungere manualmente da DB)
   - 🔍 In alternativa l'**integrazione con API esterne** (Google Books / OpenLibrary) per popolare automaticamente i dati libro
-- 🎯 **Filtri avanzati** nella dashboard (per genere, autore, punteggio, stato...)
+- 🎯 **Filtri avanzati** nella dashboard (per genere, autore, voto, stato...)
 - 🖼️ **Anteprime copertine** direttamente nelle card dei libri
 - 🧾 **Esportazione dati** personali in PDF o CSV
