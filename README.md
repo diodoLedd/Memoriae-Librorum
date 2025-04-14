@@ -1,57 +1,69 @@
-# 📚 Memoriae Librorum
+# 📚 **Memoriae Librorum**
 
-*Memoriae Librorum* è un'applicazione web scolastica pensata per aiutare gli utenti a gestire e tenere traccia della propria esperienza di lettura. L'app permette di organizzare i libri da leggere, in lettura e letti, oltre a registrare recensioni e citazioni significative.
+*Memoriae Librorum* è un'applicazione web scolastica sviluppata per aiutare gli utenti a **gestire, tracciare e riflettere** sulla propria esperienza di lettura 📖.  
+Il sito permette di organizzare i libri **da leggere**, **in lettura** e **letti**, oltre a raccogliere **recensioni** ✍️ e **citazioni memorabili** 💬.
 
-> **"Esplora, Traccia e Ricorda"**
-
----
-
-## 📘 Informazioni sul Progetto
-
-- 👨‍💻 Autore: **Lorenzo Ledda**
-- 🏫 Classe: 5°A
-- 📚 Materia: Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni
-- 📅 Inizio sviluppo: 13/03/2025
-- 🔥 Difficoltà: Fottutamente alta
-
-Lo scopo è fornire un archivio digitale per appassionati di libri che vogliono catalogare le loro letture, recensioni, voti e citazioni, in un'interfaccia moderna, responsiva e accessibile.
+> ✨ **"Esplora, Traccia e Ricorda"** – perché ogni lettura merita memoria.
 
 ---
 
-## 👨‍💻 Esperienza Utente
+## 📘 **Informazioni sul Progetto**
 
-- ✅ Registrazione e login sicuri (con hash delle password)
-- ✅ Dashboard personale per ogni utente con tutti i libri tracciati divisi per stato di avanzamento della lettura
-- ✅ Ricerca per titolo del libro con risultati
-- ✅ Aggiunta dei libri alla propria libreria
-- ✅ Modifica dello stato di lettura, recensioni, voti e date con validazione date
-- ✅ Gestione di citazioni con testo e pagina
-- ✅ Modalità scura attivabile e persistente
-- ✅ Eliminazione di citazioni e tracciamenti con conferma
-- ✅ Eliminazione dell’account con verifica password
+- 👨‍💻 **Autore:** Lorenzo Ledda  
+- 🏫 **Classe:** 5°A  
+- 📚 **Materia:** Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni  
+- 📅 **Data di inizio sviluppo:** 13/03/2025  
+- 🔥 **Difficoltà percepita:** Fottutamente alta 😤 (citazione onesta)
+
+🎯 **Obiettivo**: creare un archivio digitale semplice, moderno e accessibile per gli amanti della lettura, dove poter **catalogare** le proprie letture, **scrivere recensioni**, **salvare citazioni** e **monitorare i progressi**, tutto in un'interfaccia curata, responsiva e user-friendly. 🌐📱
 
 ---
 
-## 📌 Database e Validazioni
+## 🧱 **Entità del Sistema**
 
-**Entità principali:**
-- `Utenti`: si registrano e usufruiscono del servizio
-- `Libri`: vengono scelti dall'utente per essere tracciati
-- `Autori`: uno principale per libro
-- `Generi`: uno principale per libro
-- `Tracciamenti`: uno per utente/libro
-- `Citazioni`: citazioni personali per libro
+Le entità principali che costituiscono l'anima del progetto sono:
 
-**Validazioni dello stato di avanzamento di lettura di un libro in tracciamento**
-L'utente verrà avvisato con appositi avvisi rossi se non rispetterà i seguenti vincoli:
-- 📚 *Da leggere*: nessuna data di inizio e fine lettura
-- 📖 *In lettura*: solo data inizio 
-- ✅ *Completato*: data inizio + fine obbligatorie
-- ⚠️ La data inizio deve essere precedente a quella di fine
+- 👤 **Utenti**: si registrano, accedono e utilizzano il servizio con credenziali protette 🔐  
+- 📚 **Libri**: selezionati e tracciati da ciascun utente  
+- ✍️ **Autori**: ogni libro è legato a un autore principale  
+- 🏷️ **Generi**: un solo genere per ogni libro (per semplificare la categorizzazione)  
+- 📈 **Tracciamenti**: ogni utente può monitorare lo stato dei suoi libri  
+- 💬 **Citazioni**: frasi, estratti o pensieri personali associati a ogni libro
 
 ---
 
-## 🗂️ Struttura del Progetto
+## 💡 **Esperienza Utente**
+
+L’interfaccia è progettata per offrire:
+
+- ✅ **Registrazione e accesso sicuro** (con hashing delle password)
+- 📊 **Dashboard personale** con tutti i libri tracciati, organizzati per stato:
+  - 🔜 *Da leggere*
+  - 📖 *In lettura*
+  - ✅ *Completato*
+- 🔍 **Motore di ricerca** interno per trovare libri tracciati
+- 🧠 **Recensioni** personali su ogni libro
+- 💌 **Citazioni personali** salvate per ispirazione futura
+- 📥 **Caricamento e modifica dei dati del profilo**
+- 🔒 **Modifica password**, **cancellazione account**, e gestione tracciamenti in autonomia
+- ⚠️ **Sistema di validazione intelligente con alert visivi** rossi quando:
+  - Le date non sono coerenti con lo stato di avanzamento del libro 📅
+  - L’email è già registrata durante la creazione account 📧
+  - L’accesso fallisce per credenziali errate ❌
+  - Il libro è già presente nei tracciamenti 🚫
+  - La password inserita è errata 🔑
+  - La password di conferma per cancellazione account non è corretta 💥
+
+---
+
+✨ Questo progetto è stato sviluppato con passione, errori, test e caffè ☕.  
+Pensato per studenti, lettori e sognatori.
+
+> 📜 _“Un libro letto è un ricordo custodito. Un libro tracciato è una memoria condivisa.”_
+
+---
+
+## 📂 Struttura del Progetto
 
 ```bash
 MemoriaeLibrorum/
@@ -96,26 +108,42 @@ MemoriaeLibrorum/
 └── README.md                        # Documentazione del progetto (questo file)
 ```
 
-## Tecnologie Utilizzate
+---
 
-- **MySQL** - Gestione del database relazionale
-- **VSCodium** - Editor di testo guidato dalla comunità e con licenza libera dell'editor VS Code di Microsoft.
-- **HTML e CSS** - Realizzazione delle pagine e dello stile
-- **JavaScript** - Interazioni lato client 
-- **Bootstrap 5.3** - Componenti HTML/CSS/JS
-- **PHP** - Interazioni lato server
-- **XAMPP** - Web server locale
-- **GitHub** - verion control
+## 🧰 Tecnologie Utilizzate
+
+- 🐬 **MySQL** – Sistema di gestione del database relazionale.
+- 🧠 **VSCodium** – Editor di codice open source basato su VS Code, per uno sviluppo libero e controllato.
+- 🧱 **HTML & CSS** – Struttura e stile delle pagine web, per un’interfaccia chiara e responsive.
+- ⚙️ **JavaScript** – Logica lato client, per rendere l’esperienza interattiva.
+- 🎨 **Bootstrap 5.3** – Framework per componenti predefiniti e stile moderno mobile-first.
+- 🐘 **PHP** – Linguaggio server-side per gestire login, registrazioni e CRUD dei dati.
+- 🌐 **XAMPP** – Ambiente locale completo per testare il progetto con Apache + MySQL.
+- 🧬 **GitHub** – Sistema di versionamento per tracciare l’evoluzione del progetto.
 
 ---
 
-## 🚀 Come Utilizzare il Progetto
+## 🧪 Come Provare il Progetto
 
-1. Scarica il progetto (clonalo o scarica lo zip)
-2. Inseriscilo nella cartella `/htdocs/` di XAMPP (es: `/opt/lampp/htdocs/progetti/Memoriae Librorum/` su Linux)
-3. Avvia **Apache** e **MySQL** da XAMPP (es `sudo /opt/lampp/lampp start` su Linux o da applicazione per Windows)
-4. Crea il database da `/localhost/phpmyadmin/` importando il file `memoriae_librorum.sql` dentro a `/analisi testuale/import DB/`
-6. Digita `http://localhost/progetti/Memoriae Librorum/index.html` nel browser
-7. Goditi l'esperienza
+1. 📥 **Scarica** il progetto (clonalo da GitHub o scarica lo ZIP).
+2. 📂 **Inseriscilo** nella directory `/htdocs/` di XAMPP  
+   - _Linux_: `/opt/lampp/htdocs/progetti/Memoriae Librorum/`
+   - _Windows_: `C:\xampp\htdocs\progetti\Memoriae Librorum`
+3. 🔥 **Avvia Apache e MySQL**:
+   - _Linux terminale_: `sudo /opt/lampp/lampp start`  
+   - _Windows_: Avvia da XAMPP Control Panel
+4. 🛠️ **Crea il database** da `http://localhost/phpmyadmin/`
+   - Nome DB: `memoriae_librorum`
+   - Importa il file SQL da: `/analisi testuale/import DB/memoriae_librorum.sql`
+5. 🌐 **Avvia il sito** nel browser: `http://localhost/progetti/Memoriae Librorum/index.html`
+6. ✨ **Esplora l'app** e prova tutte le funzionalità
 
 ---
+
+## 🚧 Funzionalità Future & Miglioramenti
+
+- 🛡️ **Pannello Admin** per inserire libri tramite interfaccia grafica (evitando di doverli aggiungere manualmente da DB)
+  - 🔍 In alternativa un'**Integrazione con API esterne** (Google Books / OpenLibrary) per popolare automaticamente i dati libro
+- 🎯 **Filtri avanzati** nella dashboard (per genere, autore, punteggio, stato...)
+- 🖼️ **Anteprime copertine** direttamente nelle card dei libri
+- 🧾 **Esportazione dati** personali in PDF o CSV
