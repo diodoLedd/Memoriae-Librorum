@@ -18,7 +18,7 @@ Il sito permette di organizzare i libri **da leggere**, **in lettura** e **letti
 ## 📘 **Informazioni sul Progetto**
 
 - 👨‍💻 **Autore:** Lorenzo Ledda  
-- 🏫 **Classe:** 5°A 2024/2025 "I.I.S Michele Giua" Cagliari
+- 🏫 **Classe:** 5°A 2024/2025 "I.I.S. Michele Giua" Cagliari
 - 📚 **Materia:** Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni (materia jolly dell'indirizzo informatico, paragonabile a _"Uno, nessuno e centomila"_ di L. Pirandello)
 - 📅 **Data di inizio sviluppo:** 13/03/2025  
 - 🔥 **Difficoltà percepita:** Fottutamente alta 😤 (citazione onesta)
