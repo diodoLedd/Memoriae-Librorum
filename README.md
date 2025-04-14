@@ -73,7 +73,7 @@ MemoriaeLibrorum/
 │   │   └── memoriae_librorum.sql    # Database MYSQL caricato di libri, autori, generi e immagini di copertine
 │   └── Memoriae Librorum.md         # Analisi e requisiti funzionali del progetto
 ├── assets/                          # Favicon e immagini
-│   ├── img/                         # Immagini statiche
+│   └── img/                         # Immagini statiche
 │       └── copertine-libri/         # Copertine dei libri                   
 ├── css/                             # Fogli di stile
 │   └── styles.css                   # CSS generico
