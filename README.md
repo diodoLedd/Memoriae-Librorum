@@ -7,11 +7,17 @@ Il sito permette di organizzare i libri **da leggere**, **in lettura** e **letti
 
 ---
 
+✨ Questo progetto è stato sviluppato con passione❤️‍🔥, amore🥰 e odio😡 per PHP, errori🪲 (troppi zio pera) e caffè☕ (ormai sono socio in affari di Lavazza ).
+✨ Quindi, per favore mettetemi un bel voto‼️ (tipo non sotto il 10 🙏🙏🙏) 
+✨ Non accetto contestazioni 😀 (è già troppo se ho finito il progetto in un mese).
+
+---
+
 ## 📘 **Informazioni sul Progetto**
 
 - 👨‍💻 **Autore:** Lorenzo Ledda  
 - 🏫 **Classe:** 5°A  
-- 📚 **Materia:** Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni  
+- 📚 **Materia:** Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni (materia jolly dell'indirizzo informatico, paragonabile a _"Uno, nessuno e centomila"_ di L. Pirandello)
 - 📅 **Data di inizio sviluppo:** 13/03/2025  
 - 🔥 **Difficoltà percepita:** Fottutamente alta 😤 (citazione onesta)
 
@@ -53,13 +59,6 @@ L’interfaccia è progettata per offrire:
   - Il libro è già presente nei tracciamenti 🚫
   - La password inserita è errata 🔑
   - La password di conferma per cancellazione account non è corretta 💥
-
----
-
-✨ Questo progetto è stato sviluppato con passione, errori, test e caffè ☕.  
-Pensato per studenti, lettori e sognatori.
-
-> 📜 _“Un libro letto è un ricordo custodito. Un libro tracciato è una memoria condivisa.”_
 
 ---
 
@@ -143,10 +142,12 @@ MemoriaeLibrorum/
 ## 🚧 Funzionalità Future & Miglioramenti
 
 - 🛡️ **Pannello Admin** per inserire libri tramite interfaccia grafica (evitando di doverli aggiungere manualmente da DB)
-  - 🔍 In alternativa l'**integrazione con API esterne** (Google Books / OpenLibrary) per popolare automaticamente i dati libro
+  - 🔍 In alternativa l'**integrazione con API esterne** (Google Books / OpenLibrary) per popolare automaticamente i dati dei libri
 - 🎯 **Filtri avanzati** nella dashboard (per genere, autore, voto, stato...)
 - 🖼️ **Anteprime copertine** direttamente nelle card dei libri
 - 🧾 **Esportazione dati** personali in PDF o CSV
 - 💬 Pagine di modifica differenziate dalle pagine di visualizzazione dei dati (es. una pagina di tracciamento per la visualizzazione e una per la modifica dei dati)
+- 💌 Condivisione dei propri tracciamenti e citazioni
 - 📧 Verifica account con email
 - 📧 Recupero password via email
+
