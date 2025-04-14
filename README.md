@@ -147,3 +147,6 @@ MemoriaeLibrorum/
 - 🎯 **Filtri avanzati** nella dashboard (per genere, autore, voto, stato...)
 - 🖼️ **Anteprime copertine** direttamente nelle card dei libri
 - 🧾 **Esportazione dati** personali in PDF o CSV
+- 💬 Pagine di modifica differenziate dalle pagine di visualizzazione dei dati (es. una pagina di tracciamento per la visualizzazione e una per la modifica dei dati)
+- 📧 Verifica account con email
+- 📧 Recupero password via email
