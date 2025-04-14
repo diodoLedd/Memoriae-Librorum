@@ -7,7 +7,7 @@ Il sito permette di organizzare i libri **da leggere**, **in lettura** e **letti
 
 ---
 
-✨ Questo progetto è stato sviluppato con passione❤️‍🔥, amore🥰 e odio😡 per PHP, errori🪲 (troppi zio pera) e caffè☕ (ormai sono socio in affari di Lavazza ).
+✨ Questo progetto è stato sviluppato con passione❤️‍🔥, amore🥰 e odio😡 per PHP, errori🪲 (troppi zio pera) e caffè☕ (ormai sono socio in affari di Lavazza).
 
 ✨ Quindi, per favore mettetemi un bel voto‼️ (tipo non sotto il 10 🙏🙏🙏) 
 
