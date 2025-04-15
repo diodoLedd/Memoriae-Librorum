@@ -3,7 +3,6 @@ autore: Lorenzo Ledda
 classe: 5°A
 materia: Tecnologie e Progettazione di Sistemi Informatici e di Telecomunicazioni
 data inizio stesura: 13/03/2025
-data fine stesura: null
 difficoltà progetto: alta
 ---
 
